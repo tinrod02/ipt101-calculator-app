@@ -130,22 +130,67 @@
             color: #FFF;
         }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 1200px) {
             .calculator {
-                max-width: 300px;
+                max-width: 400px;
+            }
+
+            .btn {
+                padding: 15px;
+                font-size: 16px;
+            }
+
+            #result {
+                font-size: 30px;
+                height: 70px;
+            }
+
+            td {
+                width: 70px;
+                height: 70px;
             }
         }
 
-        @media only screen and (max-width: 400px) {
+        @media only screen and (max-width: 768px) {
             .calculator {
-                max-width: 250px;
+                max-width: 350px;
             }
+
+            .btn {
+                padding: 12px;
+                font-size: 14px;
+            }
+
             #result {
                 font-size: 24px;
+                height: 60px;
             }
-            input[type="button"] {
+
+            td {
+                width: 60px;
+                height: 60px;
+            }
+        }
+
+        @media only screen and (max-width: 600px) {
+            .calculator {
+                max-width: 300px;
                 padding: 10px;
-                font-size: 16px;
+            }
+
+            .btn {
+                padding: 10px;
+                font-size: 12px;
+            }
+
+            #result {
+                font-size: 18px;
+                height: 50px;
+            }
+
+            td {
+                width: 50px;
+                height: 50px;
             }
         }
     </style>
